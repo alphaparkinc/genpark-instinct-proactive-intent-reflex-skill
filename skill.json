@@ -1,0 +1,33 @@
+{
+  "name": "genpark-instinct-proactive-intent-reflex-skill",
+  "version": "1.0.0",
+  "description": "Instinct AI-inspired zero-prompt proactive personal agent detecting user attention cues, computing intent probabilities, and executing guarded dry-run actions.",
+  "category": "Service",
+  "author": "AlphaPark",
+  "tags": [
+    "instinct",
+    "proactive-agent",
+    "personal-agent",
+    "zero-prompt",
+    "intent-anticipation",
+    "mcp"
+  ],
+  "tools": [
+    {
+      "name": "analyze_ambient_activity_stream",
+      "description": "Parse window changes, idle periods, and clipboard transitions into attention signals."
+    },
+    {
+      "name": "compute_proactive_confidence",
+      "description": "Formulate Bayesian proactive intent confidence score."
+    },
+    {
+      "name": "execute_guarded_dry_run",
+      "description": "Simulate proactive micro-actions within reversible sandboxes."
+    },
+    {
+      "name": "run_benchmark_proactive_reflex",
+      "description": "Benchmark proactive intention anticipation accuracy."
+    }
+  ]
+}
